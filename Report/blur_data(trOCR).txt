@@ -1,0 +1,385 @@
+Rouge metric might vary if the document has multiple single word lines (one word or two words isolated), 
+because the word itself will be completely blurred.
+
+blur intensity per page = 1.2 for 20 docs:
+
+================ Document 1/20 ================
+ROUGE-1: 0.8125
+ROUGE-2: 0.5333
+ROUGE-L: 0.7500
+BERTScore-F1: 0.9222
+
+================ Document 2/20 ================
+ROUGE-1: 0.7556
+ROUGE-2: 0.5581
+ROUGE-L: 0.7556
+BERTScore-F1: 0.8852
+
+================ Document 3/20 ================
+ROUGE-1: 0.2424
+ROUGE-2: 0.0645
+ROUGE-L: 0.2424
+BERTScore-F1: 0.6893
+
+================ Document 4/20 ================
+ROUGE-1: 0.2051
+ROUGE-2: 0.0541
+ROUGE-L: 0.1538
+BERTScore-F1: 0.8085
+
+================ Document 5/20 ================
+ROUGE-1: 0.5385
+ROUGE-2: 0.2400
+ROUGE-L: 0.4231
+BERTScore-F1: 0.8122
+
+================ Document 6/20 ================
+ROUGE-1: 0.3333
+ROUGE-2: 0.0435
+ROUGE-L: 0.1667
+BERTScore-F1: 0.6941
+
+================ Document 7/20 ================
+ROUGE-1: 0.5882
+ROUGE-2: 0.3750
+ROUGE-L: 0.4706
+BERTScore-F1: 0.8294
+
+================ Document 8/20 ================
+ROUGE-1: 0.7805
+ROUGE-2: 0.7179
+ROUGE-L: 0.7805
+BERTScore-F1: 0.9469
+
+================ Document 9/20 ================
+ROUGE-1: 0.6512
+ROUGE-2: 0.4878
+ROUGE-L: 0.6512
+BERTScore-F1: 0.9053
+
+================ Document 10/20 ================
+ROUGE-1: 0.4324
+ROUGE-2: 0.2286
+ROUGE-L: 0.3243
+BERTScore-F1: 0.7938
+
+================ Document 11/20 ================
+ROUGE-1: 0.6000
+ROUGE-2: 0.4737
+ROUGE-L: 0.5500
+BERTScore-F1: 0.8375
+
+================ Document 12/20 ================
+ROUGE-1: 0.4103
+ROUGE-2: 0.2162
+ROUGE-L: 0.3590
+BERTScore-F1: 0.8085
+
+================ Document 13/20 ================
+ROUGE-1: 0.3111
+ROUGE-2: 0.0930
+ROUGE-L: 0.3111
+BERTScore-F1: 0.6952
+
+================ Document 14/20 ================
+ROUGE-1: 0.5294
+ROUGE-2: 0.2500
+ROUGE-L: 0.4118
+BERTScore-F1: 0.7821
+
+================ Document 15/20 ================
+ROUGE-1: 0.2581
+ROUGE-2: 0.0000
+ROUGE-L: 0.2581
+BERTScore-F1: 0.7437
+
+================ Document 16/20 ================
+ROUGE-1: 0.6667
+ROUGE-2: 0.3871
+ROUGE-L: 0.6061
+BERTScore-F1: 0.9105
+
+================ Document 17/20 ================
+ROUGE-1: 0.4516
+ROUGE-2: 0.2759
+ROUGE-L: 0.3871
+BERTScore-F1: 0.8264
+
+================ Document 18/20 ================
+ROUGE-1: 0.6122
+ROUGE-2: 0.2553
+ROUGE-L: 0.4490
+BERTScore-F1: 0.8011
+
+================ Document 19/20 ================
+ROUGE-1: 0.4444
+ROUGE-2: 0.1765
+ROUGE-L: 0.3333
+BERTScore-F1: 0.7488
+
+ROUGE-2: 0.1714
+ROUGE-2: 0.1714
+ROUGE-L: 0.2162
+BERTScore-F1: 0.7405
+
+================ FINAL AVERAGES ================
+Average ROUGE-1: 0.5055
+Average ROUGE-2: 0.2801
+Average ROUGE-L: 0.4300
+Average BERTScore-F1: 0.8091
+
+blur intensity per page = 1.4 for 20 docs:
+
+================ Document 1/20 ================
+ROUGE-1: 0.8125
+ROUGE-2: 0.5333
+ROUGE-L: 0.7500
+BERTScore-F1: 0.9222
+
+================ Document 2/20 ================
+ROUGE-1: 0.7556
+ROUGE-2: 0.5581
+ROUGE-L: 0.7556
+BERTScore-F1: 0.8852
+
+================ Document 3/20 ================
+ROUGE-1: 0.2424
+ROUGE-2: 0.0645
+ROUGE-L: 0.2424
+BERTScore-F1: 0.6893
+
+================ Document 4/20 ================
+ROUGE-1: 0.4211
+ROUGE-2: 0.2222
+ROUGE-L: 0.4211
+BERTScore-F1: 0.8600
+
+================ Document 5/20 ================
+ROUGE-1: 0.5490
+ROUGE-2: 0.2449
+ROUGE-L: 0.4314
+BERTScore-F1: 0.8223
+
+================ Document 6/20 ================
+ROUGE-1: 0.3673
+ROUGE-2: 0.0426
+ROUGE-L: 0.1224
+BERTScore-F1: 0.6501
+
+================ Document 7/20 ================
+ROUGE-1: 0.5882
+ROUGE-2: 0.3750
+ROUGE-L: 0.4706
+BERTScore-F1: 0.8294
+
+================ Document 8/20 ================
+ROUGE-1: 0.8718
+ROUGE-2: 0.8108
+ROUGE-L: 0.8718
+BERTScore-F1: 0.9512
+
+================ Document 9/20 ================
+ROUGE-1: 0.6364
+ROUGE-2: 0.4762
+ROUGE-L: 0.6364
+BERTScore-F1: 0.8809
+
+================ Document 10/20 ================
+ROUGE-1: 0.3784
+ROUGE-2: 0.3429
+ROUGE-L: 0.3784
+BERTScore-F1: 0.8055
+
+================ Document 11/20 ================
+ROUGE-1: 0.6000
+ROUGE-2: 0.4737
+ROUGE-L: 0.5500
+BERTScore-F1: 0.8375
+
+================ Document 12/20 ================
+ROUGE-1: 0.6829
+ROUGE-2: 0.5128
+ROUGE-L: 0.6829
+BERTScore-F1: 0.8868
+
+================ Document 13/20 ================
+ROUGE-1: 0.3256
+ROUGE-2: 0.0976
+ROUGE-L: 0.3256
+BERTScore-F1: 0.7246
+
+================ Document 14/20 ================
+ROUGE-1: 0.5294
+ROUGE-2: 0.2500
+ROUGE-L: 0.4118
+BERTScore-F1: 0.7821
+
+================ Document 15/20 ================
+ROUGE-1: 0.2759
+ROUGE-2: 0.0000
+ROUGE-L: 0.2759
+BERTScore-F1: 0.7665
+
+================ Document 16/20 ================
+ROUGE-1: 0.6667
+ROUGE-2: 0.3871
+ROUGE-L: 0.6061
+BERTScore-F1: 0.9105
+
+================ Document 17/20 ================
+ROUGE-1: 0.4516
+ROUGE-2: 0.2759
+ROUGE-L: 0.3871
+BERTScore-F1: 0.8267
+
+================ Document 18/20 ================
+ROUGE-1: 0.5200
+ROUGE-2: 0.2083
+ROUGE-L: 0.4000
+BERTScore-F1: 0.8024
+
+================ Document 19/20 ================
+ROUGE-1: 0.3077
+ROUGE-2: 0.0000
+ROUGE-L: 0.2308
+BERTScore-F1: 0.7435
+
+================ Document 20/20 ================
+ROUGE-1: 0.4186
+ROUGE-2: 0.1463
+ROUGE-L: 0.1860
+BERTScore-F1: 0.6872
+
+================ FINAL AVERAGES ================
+Average ROUGE-1: 0.5201
+Average ROUGE-2: 0.3011
+Average ROUGE-L: 0.4568
+Average BERTScore-F1: 0.8132
+
+blur intensity per page = 2 for 20 docs:
+
+================ Document 1/20 ================
+ROUGE-1: 0.8125
+ROUGE-2: 0.5333
+ROUGE-L: 0.7500
+BERTScore-F1: 0.9222
+
+================ Document 2/20 ================
+ROUGE-1: 0.6667
+ROUGE-2: 0.5500
+ROUGE-L: 0.6667
+BERTScore-F1: 0.8209
+
+================ Document 3/20 ================
+ROUGE-1: 0.1765
+ROUGE-2: 0.0000
+ROUGE-L: 0.1765
+BERTScore-F1: 0.6848
+
+================ Document 4/20 ================
+ROUGE-1: 0.2162
+ROUGE-2: 0.0571
+ROUGE-L: 0.1622
+BERTScore-F1: 0.7840
+
+================ Document 5/20 ================
+ROUGE-1: 0.4490
+ROUGE-2: 0.1702
+ROUGE-L: 0.3265
+BERTScore-F1: 0.7762
+
+================ Document 6/20 ================
+ROUGE-1: 0.3077
+ROUGE-2: 0.1200
+ROUGE-L: 0.2308
+BERTScore-F1: 0.7352
+
+================ Document 7/20 ================
+ROUGE-1: 0.3333
+ROUGE-2: 0.1765
+ROUGE-L: 0.3333
+BERTScore-F1: 0.7564
+
+================ Document 8/20 ================
+ROUGE-1: 0.6383
+ROUGE-2: 0.4444
+ROUGE-L: 0.3404
+BERTScore-F1: 0.8154
+
+================ Document 9/20 ================
+ROUGE-1: 0.4651
+ROUGE-2: 0.2439
+ROUGE-L: 0.4186
+BERTScore-F1: 0.8252
+
+================ Document 10/20 ================
+ROUGE-1: 0.3243
+ROUGE-2: 0.1714
+ROUGE-L: 0.3243
+BERTScore-F1: 0.8108
+
+================ Document 11/20 ================
+ROUGE-1: 0.2692
+ROUGE-2: 0.0800
+ROUGE-L: 0.2308
+BERTScore-F1: 0.7160
+
+================ Document 12/20 ================
+ROUGE-1: 0.4500
+ROUGE-2: 0.2632
+ROUGE-L: 0.4000
+BERTScore-F1: 0.7941
+
+================ Document 13/20 ================
+ROUGE-1: 0.3256
+ROUGE-2: 0.0488
+ROUGE-L: 0.3256
+BERTScore-F1: 0.7211
+
+================ Document 14/20 ================
+ROUGE-1: 0.5143
+ROUGE-2: 0.2424
+ROUGE-L: 0.3429
+BERTScore-F1: 0.7371
+
+================ Document 15/20 ================
+ROUGE-1: 0.3448
+ROUGE-2: 0.0741
+ROUGE-L: 0.3448
+BERTScore-F1: 0.7927
+
+================ Document 16/20 ================
+ROUGE-1: 0.6667
+ROUGE-2: 0.3571
+ROUGE-L: 0.6000
+BERTScore-F1: 0.8491
+
+================ Document 17/20 ================
+ROUGE-1: 0.5000
+ROUGE-2: 0.2667
+ROUGE-L: 0.3750
+BERTScore-F1: 0.8284
+
+================ Document 18/20 ================
+ROUGE-1: 0.3256
+ROUGE-2: 0.0000
+ROUGE-L: 0.1860
+BERTScore-F1: 0.6549
+
+================ Document 19/20 ================
+ROUGE-1: 0.3077
+ROUGE-2: 0.1622
+ROUGE-L: 0.2564
+BERTScore-F1: 0.7003
+
+================ Document 20/20 ================
+ROUGE-1: 0.1818
+ROUGE-2: 0.0645
+ROUGE-L: 0.1212
+BERTScore-F1: 0.6810
+
+================ FINAL AVERAGES ================
+Average ROUGE-1: 0.4138
+Average ROUGE-2: 0.2013
+Average ROUGE-L: 0.3456
+Average BERTScore-F1: 0.7703

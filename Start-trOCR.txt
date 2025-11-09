@@ -1,0 +1,4 @@
+conda env create --name trOCR --file environment.yml
+conda activate trOCR
+cd Scripts
+python trOCR.py

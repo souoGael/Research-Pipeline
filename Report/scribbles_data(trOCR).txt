@@ -1,0 +1,416 @@
+OCR for 10 documents:
+    clean:
+        Average CER: 0.0752
+        Average WER: 0.2846
+        Average CAR: 0.9248
+    scribbles:
+        5:
+            Average CER: 0.2336
+            Average WER: 0.4572
+            Average CAR: 0.7664
+        8:
+            Average CER: 0.3666
+            Average WER: 0.6142
+            Average CAR: 0.6334
+        12:
+            Average CER: 0.5309
+            Average WER: 0.7391
+            Average CAR: 0.4691
+    blur:
+        1.2:
+            Average CER: 0.0834
+            Average WER: 0.2944
+            Average CAR: 0.9166
+        1.4:
+            Average CER: 0.0878
+            Average WER: 0.3031
+            Average CAR: 0.9122
+        2:
+            Average CER: 0.2008
+            Average WER: 0.4242
+            Average CAR: 0.7992
+
+Scribbles
+
+    number of lines per page = 5 for 20 docs:
+        ================ Document 1/20 ================
+        ROUGE-1: 0.3125
+        ROUGE-2: 0.1333
+        ROUGE-L: 0.3125
+        BERTScore-F1: 0.8012
+
+        ================ Document 2/20 ================
+        ROUGE-1: 0.6512
+        ROUGE-2: 0.5366
+        ROUGE-L: 0.6512
+        BERTScore-F1: 0.8478
+
+        ================ Document 3/20 ================
+        ROUGE-1: 0.1765
+        ROUGE-2: 0.0000
+        ROUGE-L: 0.1765
+        BERTScore-F1: 0.6930
+
+        ================ Document 4/20 ================
+        ROUGE-1: 0.1818
+        ROUGE-2: 0.0645
+        ROUGE-L: 0.1818
+        BERTScore-F1: 0.8084
+
+        ================ Document 5/20 ================
+        ROUGE-1: 0.4528
+        ROUGE-2: 0.1569
+        ROUGE-L: 0.3396
+        BERTScore-F1: 0.7823
+
+        ================ Document 6/20 ================
+        ROUGE-1: 0.3830
+        ROUGE-2: 0.0889
+        ROUGE-L: 0.2553
+        BERTScore-F1: 0.7384
+
+        ================ Document 7/20 ================
+        ROUGE-1: 0.2581
+        ROUGE-2: 0.1379
+        ROUGE-L: 0.2581
+        BERTScore-F1: 0.7603
+
+        ================ Document 8/20 ================
+        ROUGE-1: 0.7805
+        ROUGE-2: 0.7179
+        ROUGE-L: 0.7805
+        BERTScore-F1: 0.9469
+
+        ================ Document 9/20 ================
+        ROUGE-1: 0.6512
+        ROUGE-2: 0.4878
+        ROUGE-L: 0.6512
+        BERTScore-F1: 0.9053
+
+        ================ Document 10/20 ================
+        ROUGE-1: 0.4000
+        ROUGE-2: 0.2105
+        ROUGE-L: 0.4000
+        BERTScore-F1: 0.7990
+
+        ================ Document 11/20 ================
+        ROUGE-1: 0.5500
+        ROUGE-2: 0.4211
+        ROUGE-L: 0.5000
+        BERTScore-F1: 0.8292
+
+        ================ Document 12/20 ================
+        ROUGE-1: 0.2553
+        ROUGE-2: 0.0889
+        ROUGE-L: 0.2553
+        BERTScore-F1: 0.7292
+
+        ================ Document 13/20 ================
+        ROUGE-1: 0.4286
+        ROUGE-2: 0.2500
+        ROUGE-L: 0.4286
+        BERTScore-F1: 0.7376
+
+        ================ Document 14/20 ================
+        ROUGE-1: 0.5294
+        ROUGE-2: 0.2500
+        ROUGE-L: 0.4118
+        BERTScore-F1: 0.7821
+
+        ================ Document 15/20 ================
+        ROUGE-1: 0.2759
+        ROUGE-2: 0.0000
+        ROUGE-L: 0.2759
+        BERTScore-F1: 0.7665
+
+        ================ Document 16/20 ================
+        ROUGE-1: 0.7857
+        ROUGE-2: 0.6923
+        ROUGE-L: 0.7857
+        BERTScore-F1: 0.9612
+
+        ================ Document 17/20 ================
+        ROUGE-1: 0.5455
+        ROUGE-2: 0.2581
+        ROUGE-L: 0.4242
+        BERTScore-F1: 0.8358
+
+        ================ Document 18/20 ================
+        ROUGE-1: 0.4444
+        ROUGE-2: 0.1395
+        ROUGE-L: 0.3111
+        BERTScore-F1: 0.7202
+
+        ================ Document 19/20 ================
+        ROUGE-1: 0.2759
+        ROUGE-2: 0.0741
+        ROUGE-L: 0.1379
+        BERTScore-F1: 0.7047
+
+        ================ Document 20/20 ================
+        ROUGE-1: 0.4000
+        ROUGE-2: 0.1053
+        ROUGE-L: 0.2000
+        BERTScore-F1: 0.7040
+
+        ================ FINAL AVERAGES ================
+        Average ROUGE-1: 0.4369
+        Average ROUGE-2: 0.2407
+        Average ROUGE-L: 0.3869
+        Average BERTScore-F1: 0.7927
+    
+    
+    number of lines per page = 8 for 20 docs:
+        ================ Document 1/20 ================
+        ROUGE-1: 0.4516
+        ROUGE-2: 0.2759
+        ROUGE-L: 0.3871
+        BERTScore-F1: 0.6837
+
+        ================ Document 2/20 ================
+        ROUGE-1: 0.4167
+        ROUGE-2: 0.1304
+        ROUGE-L: 0.2917
+        BERTScore-F1: 0.7446
+
+        ================ Document 3/20 ================
+        ROUGE-1: 0.0714
+        ROUGE-2: 0.0000
+        ROUGE-L: 0.0714
+        BERTScore-F1: 0.6625
+
+        ================ Document 4/20 ================
+        ROUGE-1: 0.1212
+        ROUGE-2: 0.0645
+        ROUGE-L: 0.1212
+        BERTScore-F1: 0.8035
+
+        ================ Document 5/20 ================
+        ROUGE-1: 0.5306
+        ROUGE-2: 0.2553
+        ROUGE-L: 0.4082
+        BERTScore-F1: 0.7495
+
+        ================ Document 6/20 ================
+        ROUGE-1: 0.2642
+        ROUGE-2: 0.0392
+        ROUGE-L: 0.1509
+        BERTScore-F1: 0.6701
+
+        ================ Document 7/20 ================
+        ROUGE-1: 0.2500
+        ROUGE-2: 0.0667
+        ROUGE-L: 0.1250
+        BERTScore-F1: 0.7570
+
+        ================ Document 8/20 ================
+        ROUGE-1: 0.6111
+        ROUGE-2: 0.4706
+        ROUGE-L: 0.3889
+        BERTScore-F1: 0.7962
+
+        ================ Document 9/20 ================
+        ROUGE-1: 0.1579
+        ROUGE-2: 0.0000
+        ROUGE-L: 0.1053
+        BERTScore-F1: 0.6795
+
+        ================ Document 10/20 ================
+        ROUGE-1: 0.2564
+        ROUGE-2: 0.1081
+        ROUGE-L: 0.2051
+        BERTScore-F1: 0.7168
+
+        ================ Document 11/20 ================
+        ROUGE-1: 0.2326
+        ROUGE-2: 0.0488
+        ROUGE-L: 0.2326
+        BERTScore-F1: 0.6480
+
+        ================ Document 12/20 ================
+        ROUGE-1: 0.4000
+        ROUGE-2: 0.2105
+        ROUGE-L: 0.3500
+        BERTScore-F1: 0.7902
+
+        ================ Document 13/20 ================
+        ROUGE-1: 0.3500
+        ROUGE-2: 0.2105
+        ROUGE-L: 0.3500
+        BERTScore-F1: 0.7055
+
+        ================ Document 14/20 ================
+        ROUGE-1: 0.5294
+        ROUGE-2: 0.2500
+        ROUGE-L: 0.4118
+        BERTScore-F1: 0.7821
+
+        ================ Document 15/20 ================
+        ROUGE-1: 0.0714
+        ROUGE-2: 0.0000
+        ROUGE-L: 0.0714
+        BERTScore-F1: 0.6306
+
+        ================ Document 16/20 ================
+        ROUGE-1: 0.5806
+        ROUGE-2: 0.2069
+        ROUGE-L: 0.4516
+        BERTScore-F1: 0.8505
+
+        ================ Document 17/20 ================
+        ROUGE-1: 0.3871
+        ROUGE-2: 0.2759
+        ROUGE-L: 0.3871
+        BERTScore-F1: 0.8281
+
+        ================ Document 18/20 ================
+        ROUGE-1: 0.2979
+        ROUGE-2: 0.0889
+        ROUGE-L: 0.1702
+        BERTScore-F1: 0.6670
+
+        ================ Document 19/20 ================
+        ROUGE-1: 0.2500
+        ROUGE-2: 0.0667
+        ROUGE-L: 0.1875
+        BERTScore-F1: 0.6727
+
+        ================ Document 20/20 ================
+        ROUGE-1: 0.2791
+        ROUGE-2: 0.0000
+        ROUGE-L: 0.0930
+        BERTScore-F1: 0.6912
+
+        ================ FINAL AVERAGES ================
+        Average ROUGE-1: 0.3255
+        Average ROUGE-2: 0.1384
+        Average ROUGE-L: 0.2480
+        Average BERTScore-F1: 0.7265
+
+
+    number of lines per page = 12 for 20 docs:
+        ================ Document 1/20 ================
+        ROUGE-1: 0.1667
+        ROUGE-2: 0.0000
+        ROUGE-L: 0.1111
+        BERTScore-F1: 0.7495
+
+        ================ Document 2/20 ================
+        ROUGE-1: 0.5455
+        ROUGE-2: 0.1429
+        ROUGE-L: 0.4091
+        BERTScore-F1: 0.7726
+
+        ================ Document 3/20 ================
+        ROUGE-1: 0.1081
+        ROUGE-2: 0.0000
+        ROUGE-L: 0.1081
+        BERTScore-F1: 0.5874
+
+        ================ Document 4/20 ================
+        ROUGE-1: 0.1176
+        ROUGE-2: 0.0625
+        ROUGE-L: 0.1176
+        BERTScore-F1: 0.8001
+
+        ================ Document 5/20 ================
+        ROUGE-1: 0.0889
+        ROUGE-2: 0.0465
+        ROUGE-L: 0.0889
+        BERTScore-F1: 0.6608
+
+        ================ Document 6/20 ================
+        ROUGE-1: 0.2449
+        ROUGE-2: 0.0426
+        ROUGE-L: 0.1224
+        BERTScore-F1: 0.6479
+
+        ================ Document 7/20 ================
+        ROUGE-1: 0.0000
+        ROUGE-2: 0.0000
+        ROUGE-L: 0.0000
+        BERTScore-F1: 0.6113
+
+        ================ Document 8/20 ================
+        ROUGE-1: 0.4783
+        ROUGE-2: 0.1364
+        ROUGE-L: 0.2174
+        BERTScore-F1: 0.7742
+
+        ================ Document 9/20 ================
+        ROUGE-1: 0.2727
+        ROUGE-2: 0.0476
+        ROUGE-L: 0.2273
+        BERTScore-F1: 0.6872
+
+        ================ Document 10/20 ================
+        ROUGE-1: 0.2927
+        ROUGE-2: 0.1538
+        ROUGE-L: 0.2439
+        BERTScore-F1: 0.6964
+
+        ================ Document 11/20 ================
+        ROUGE-1: 0.5600
+        ROUGE-2: 0.2500
+        ROUGE-L: 0.4400
+        BERTScore-F1: 0.8134
+
+        ================ Document 12/20 ================
+        ROUGE-1: 0.3182
+        ROUGE-2: 0.1429
+        ROUGE-L: 0.2727
+        BERTScore-F1: 0.7589
+
+        ================ Document 13/20 ================
+        ROUGE-1: 0.2791
+        ROUGE-2: 0.0976
+        ROUGE-L: 0.2791
+        BERTScore-F1: 0.6894
+
+        ================ Document 14/20 ================
+        ROUGE-1: 0.3125
+        ROUGE-2: 0.2000
+        ROUGE-L: 0.2500
+        BERTScore-F1: 0.6951
+
+        ================ Document 15/20 ================
+        ROUGE-1: 0.3333
+        ROUGE-2: 0.1429
+        ROUGE-L: 0.3333
+        BERTScore-F1: 0.7680
+
+        ================ Document 16/20 ================
+        ROUGE-1: 0.3000
+        ROUGE-2: 0.1053
+        ROUGE-L: 0.3000
+        BERTScore-F1: 0.7423
+
+        ================ Document 17/20 ================
+        ROUGE-1: 0.4118
+        ROUGE-2: 0.1875
+        ROUGE-L: 0.4118
+        BERTScore-F1: 0.8088
+
+        ================ Document 18/20 ================
+        ROUGE-1: 0.6364
+        ROUGE-2: 0.3810
+        ROUGE-L: 0.5000
+        BERTScore-F1: 0.8011
+
+        ================ Document 19/20 ================
+        ROUGE-1: 0.3529
+        ROUGE-2: 0.1875
+        ROUGE-L: 0.2941
+        BERTScore-F1: 0.7176
+
+        ================ Document 20/20 ================
+        ROUGE-1: 0.2500
+        ROUGE-2: 0.0870
+        ROUGE-L: 0.1667
+        BERTScore-F1: 0.6433
+
+        ================ FINAL AVERAGES ================
+        Average ROUGE-1: 0.3035
+        Average ROUGE-2: 0.1207
+        Average ROUGE-L: 0.2447
+        Average BERTScore-F1: 0.7213

@@ -1,0 +1,386 @@
+Rouge metric might vary if the document has multiple single word lines (one word or two words isolated), 
+because the word itself will be completely blurred.
+
+blur intensity per page = 1.2 for 20 docs:
+
+================ Document 1/20 ================
+ROUGE-1: 0.2162
+ROUGE-2: 0.0000
+ROUGE-L: 0.2162
+BERTScore-F1: 0.6488
+
+================ Document 2/20 ================
+ROUGE-1: 0.3462
+ROUGE-2: 0.0800
+ROUGE-L: 0.2308
+BERTScore-F1: 0.6902
+
+================ Document 3/20 ================
+ROUGE-1: 0.1212
+ROUGE-2: 0.0000
+ROUGE-L: 0.1212
+BERTScore-F1: 0.6573
+
+================ Document 4/20 ================
+ROUGE-1: 0.0313
+ROUGE-2: 0.0000
+ROUGE-L: 0.0313
+BERTScore-F1: 0.3489
+
+================ Document 5/20 ================
+ROUGE-1: 0.1200
+ROUGE-2: 0.0000
+ROUGE-L: 0.0800
+BERTScore-F1: 0.4914
+
+================ Document 6/20 ================
+ROUGE-1: 0.0000
+ROUGE-2: 0.0000
+ROUGE-L: 0.0000
+BERTScore-F1: 0.2127
+
+================ Document 7/20 ================
+ROUGE-1: 0.0000
+ROUGE-2: 0.0000
+ROUGE-L: 0.0000
+BERTScore-F1: 0.1871
+
+================ Document 8/20 ================
+ROUGE-1: 0.3415
+ROUGE-2: 0.0513
+ROUGE-L: 0.1951
+BERTScore-F1: 0.7185
+
+================ Document 9/20 ================
+ROUGE-1: 0.0000
+ROUGE-2: 0.0000
+ROUGE-L: 0.0000
+BERTScore-F1: 0.2303
+
+================ Document 10/20 ================
+ROUGE-1: 0.0000
+ROUGE-2: 0.0000
+ROUGE-L: 0.0000
+BERTScore-F1: 0.4617
+
+================ Document 11/20 ================
+ROUGE-1: 0.0000
+ROUGE-2: 0.0000
+ROUGE-L: 0.0000
+BERTScore-F1: 0.2121
+
+================ Document 12/20 ================
+ROUGE-1: 0.0909
+ROUGE-2: 0.0000
+ROUGE-L: 0.0909
+BERTScore-F1: 0.6075
+
+================ Document 13/20 ================
+ROUGE-1: 0.0256
+ROUGE-2: 0.0000
+ROUGE-L: 0.0256
+BERTScore-F1: 0.2462
+
+================ Document 14/20 ================
+ROUGE-1: 0.0000
+ROUGE-2: 0.0000
+ROUGE-L: 0.0000
+BERTScore-F1: 0.2422
+
+================ Document 15/20 ================
+ROUGE-1: 0.0000
+ROUGE-2: 0.0000
+ROUGE-L: 0.0000
+BERTScore-F1: 0.2656
+
+================ Document 16/20 ================
+ROUGE-1: 0.3333
+ROUGE-2: 0.1304
+ROUGE-L: 0.2917
+BERTScore-F1: 0.7076
+
+================ Document 17/20 ================
+ROUGE-1: 0.0645
+ROUGE-2: 0.0000
+ROUGE-L: 0.0645
+BERTScore-F1: 0.5669
+
+================ Document 18/20 ================
+ROUGE-1: 0.1633
+ROUGE-2: 0.0426
+ROUGE-L: 0.1633
+BERTScore-F1: 0.6328
+
+================ Document 19/20 ================
+ROUGE-1: 0.0328
+ROUGE-2: 0.0000
+ROUGE-L: 0.0328
+BERTScore-F1: 0.3526
+
+================ Document 20/20 ================
+ROUGE-1: 0.0000
+ROUGE-2: 0.0000
+ROUGE-L: 0.0000
+BERTScore-F1: 0.4617
+
+================ FINAL AVERAGES ================
+Average ROUGE-1: 0.0943
+Average ROUGE-2: 0.0152
+Average ROUGE-L: 0.0772
+Average BERTScore-F1: 0.4471
+
+blur intensity per page = 1.4 for 20 docs:
+
+================ Document 1/20 ================
+ROUGE-1: 0.3158
+ROUGE-2: 0.1111
+ROUGE-L: 0.3158
+BERTScore-F1: 0.7088
+
+================ Document 2/20 ================
+ROUGE-1: 0.3333
+ROUGE-2: 0.0870
+ROUGE-L: 0.1667
+BERTScore-F1: 0.6938
+
+================ Document 3/20 ================
+ROUGE-1: 0.0588
+ROUGE-2: 0.0000
+ROUGE-L: 0.0588
+BERTScore-F1: 0.5671
+
+================ Document 4/20 ================
+ROUGE-1: 0.0000
+ROUGE-2: 0.0000
+ROUGE-L: 0.0000
+BERTScore-F1: 0.5583
+
+================ Document 5/20 ================
+ROUGE-1: 0.0000
+ROUGE-2: 0.0000
+ROUGE-L: 0.0000
+BERTScore-F1: 0.4622
+
+================ Document 6/20 ================
+ROUGE-1: 0.0000
+ROUGE-2: 0.0000
+ROUGE-L: 0.0000
+BERTScore-F1: 0.5062
+
+================ Document 7/20 ================
+ROUGE-1: 0.0000
+ROUGE-2: 0.0000
+ROUGE-L: 0.0000
+BERTScore-F1: 0.5935
+
+================ Document 8/20 ================
+ROUGE-1: 0.3182
+ROUGE-2: 0.1429
+ROUGE-L: 0.1818
+BERTScore-F1: 0.6972
+
+================ Document 9/20 ================
+ROUGE-1: 0.0000
+ROUGE-2: 0.0000
+ROUGE-L: 0.0000
+BERTScore-F1: 0.2854
+
+================ Document 10/20 ================
+ROUGE-1: 0.0000
+ROUGE-2: 0.0000
+ROUGE-L: 0.0000
+BERTScore-F1: 0.4617
+
+================ Document 11/20 ================
+ROUGE-1: 0.0000
+ROUGE-2: 0.0000
+ROUGE-L: 0.0000
+BERTScore-F1: 0.2798
+
+================ Document 12/20 ================
+ROUGE-1: 0.0000
+ROUGE-2: 0.0000
+ROUGE-L: 0.0000
+BERTScore-F1: 0.4726
+
+================ Document 13/20 ================
+ROUGE-1: 0.0000
+ROUGE-2: 0.0000
+ROUGE-L: 0.0000
+BERTScore-F1: 0.3150
+
+================ Document 14/20 ================
+ROUGE-1: 0.0000
+ROUGE-2: 0.0000
+ROUGE-L: 0.0000
+BERTScore-F1: 0.2422
+
+================ Document 15/20 ================
+ROUGE-1: 0.0000
+ROUGE-2: 0.0000
+ROUGE-L: 0.0000
+BERTScore-F1: 0.2512
+
+================ Document 16/20 ================
+ROUGE-1: 0.2041
+ROUGE-2: 0.1277
+ROUGE-L: 0.2041
+BERTScore-F1: 0.6884
+
+================ Document 17/20 ================
+ROUGE-1: 0.1111
+ROUGE-2: 0.0000
+ROUGE-L: 0.1111
+BERTScore-F1: 0.3796
+
+================ Document 18/20 ================
+ROUGE-1: 0.1818
+ROUGE-2: 0.0476
+ROUGE-L: 0.1364
+BERTScore-F1: 0.5653
+
+================ Document 19/20 ================
+ROUGE-1: 0.0328
+ROUGE-2: 0.0000
+ROUGE-L: 0.0328
+BERTScore-F1: 0.3526
+
+================ Document 20/20 ================
+ROUGE-1: 0.0000
+ROUGE-2: 0.0000
+ROUGE-L: 0.0000
+BERTScore-F1: 0.4617
+
+================ FINAL AVERAGES ================
+Average ROUGE-1: 0.0778
+Average ROUGE-2: 0.0258
+Average ROUGE-L: 0.0604
+Average BERTScore-F1: 0.4771
+
+blur intensity per page = 2 for 20 docs:
+
+================ Document 1/20 ================
+ROUGE-1: 0.3333
+ROUGE-2: 0.0000
+ROUGE-L: 0.2778
+BERTScore-F1: 0.6930
+
+================ Document 2/20 ================
+ROUGE-1: 0.0000
+ROUGE-2: 0.0000
+ROUGE-L: 0.0000
+BERTScore-F1: 0.1903
+
+================ Document 3/20 ================
+ROUGE-1: 0.0556
+ROUGE-2: 0.0000
+ROUGE-L: 0.0556
+BERTScore-F1: 0.5591
+
+================ Document 4/20 ================
+ROUGE-1: 0.0000
+ROUGE-2: 0.0000
+ROUGE-L: 0.0000
+BERTScore-F1: 0.5218
+
+================ Document 5/20 ================
+ROUGE-1: 0.0488
+ROUGE-2: 0.0000
+ROUGE-L: 0.0488
+BERTScore-F1: 0.3285
+
+================ Document 6/20 ================
+ROUGE-1: 0.0000
+ROUGE-2: 0.0000
+ROUGE-L: 0.0000
+BERTScore-F1: 0.2438
+
+================ Document 7/20 ================
+ROUGE-1: 0.0000
+ROUGE-2: 0.0000
+ROUGE-L: 0.0000
+BERTScore-F1: 0.1871
+
+================ Document 8/20 ================
+ROUGE-1: 0.0000
+ROUGE-2: 0.0000
+ROUGE-L: 0.0000
+BERTScore-F1: 0.2717
+
+================ Document 9/20 ================
+ROUGE-1: 0.0000
+ROUGE-2: 0.0000
+ROUGE-L: 0.0000
+BERTScore-F1: 0.2342
+
+================ Document 10/20 ================
+ROUGE-1: 0.0952
+ROUGE-2: 0.0000
+ROUGE-L: 0.0952
+BERTScore-F1: 0.4992
+
+================ Document 11/20 ================
+ROUGE-1: 0.0000
+ROUGE-2: 0.0000
+ROUGE-L: 0.0000
+BERTScore-F1: 0.4952
+
+================ Document 12/20 ================
+ROUGE-1: 0.0000
+ROUGE-2: 0.0000
+ROUGE-L: 0.0000
+BERTScore-F1: 0.5328
+
+================ Document 13/20 ================
+ROUGE-1: 0.0000
+ROUGE-2: 0.0000
+ROUGE-L: 0.0000
+BERTScore-F1: 0.2619
+
+================ Document 14/20 ================
+ROUGE-1: 0.2162
+ROUGE-2: 0.0000
+ROUGE-L: 0.2162
+BERTScore-F1: 0.6601
+
+================ Document 15/20 ================
+ROUGE-1: 0.0000
+ROUGE-2: 0.0000
+ROUGE-L: 0.0000
+BERTScore-F1: 0.5430
+
+================ Document 16/20 ================
+ROUGE-1: 0.0000
+ROUGE-2: 0.0000
+ROUGE-L: 0.0000
+BERTScore-F1: 0.2444
+
+================ Document 17/20 ================
+ROUGE-1: 0.0769
+ROUGE-2: 0.0000
+ROUGE-L: 0.0769
+BERTScore-F1: 0.3866
+
+================ Document 18/20 ================
+ROUGE-1: 0.0235
+ROUGE-2: 0.0000
+ROUGE-L: 0.0235
+BERTScore-F1: 0.2677
+
+================ Document 19/20 ================
+ROUGE-1: 0.0290
+ROUGE-2: 0.0000
+ROUGE-L: 0.0290
+BERTScore-F1: 0.3005
+
+================ Document 20/20 ================
+ROUGE-1: 0.0000
+ROUGE-2: 0.0000
+ROUGE-L: 0.0000
+BERTScore-F1: 0.4617
+
+================ FINAL AVERAGES ================
+Average ROUGE-1: 0.0439
+Average ROUGE-2: 0.0000
+Average ROUGE-L: 0.0412
+Average BERTScore-F1: 0.3941
